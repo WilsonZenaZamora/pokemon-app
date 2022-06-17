@@ -23,7 +23,7 @@ export const FavoriteCardPokemon: FC<Props> = ({ pokemonId }) => {
         isHoverable
         isPressable
         css={{ padding: 10 }}
-        onPress={ onFavoriteClick }
+        onClick={ onFavoriteClick }
       >
         <Card.Image
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${ pokemonId }.svg`}
